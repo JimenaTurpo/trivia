@@ -1,0 +1,175 @@
+body{
+    background-color: #36ACDC;
+    background-image: url(/Gif/nubes.gif);
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+   
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 80px;
+    text-align: center;
+    
+}
+
+.trv{
+    width: 300px;
+    display: block;
+    justify-content: center;
+    align-self: start;
+    margin: 5px auto;
+    padding-top: 80px;
+}
+.logo{
+    display: block;
+    padding: 25px;
+    margin: 5px auto;
+}
+
+.caja1{
+    display: flex;
+}
+.homer{
+    float: left;
+    position:fixed;
+}
+.Binicio{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 50px 5px 50px;
+    border-radius: 20px;
+    margin: 20px auto;
+    color:#FDCD00;
+    background-color: black;
+    font-family: "Indie Flower", cursive; 
+    text-decoration: none;
+}
+.Binicio:hover{
+    background-color: #004AAD;
+}
+.contenedor{
+    padding: 50px 10px 0;
+}
+
+.presentacion{
+    border-radius: 15px;
+    border: 1px solid #000;
+    box-shadow: 0 8px 10px #000;
+    background-color: aliceblue;
+    margin: 60px auto;
+    height: 600px;
+    width: 50%;
+}
+.trivia{
+    width: 200px;
+    display: block;
+    justify-content: center;
+    margin: 5px auto ;
+}
+.simpson{
+    justify-content: center;
+    width: 250px;
+    display: block;
+    margin: 2px auto;
+}
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.categoria{
+    border-radius: 30px;
+    border: 1px solid #000;
+    font-weight: 800px;
+    display: block;
+    padding: 8px 8px;
+    margin: 7px auto;
+    width: 40%;
+    background-color: #437B17;
+    text-decoration: none;
+}
+.categoria h4{
+    color: #FDCD00;
+    font-family: "Indie Flower", cursive; 
+}
+.categoria:hover {
+  background-color: #EF0E29;
+  color: #437B17;
+  border: 3px solid #021575;
+}
+.titulo{
+    color: #EF0E29;
+}
+.presentacion h3{
+    color: #021575;
+}
+.cajaP{
+    display: block;
+    border: 1px solid #FDCD00;
+    background-color: #437B17;
+    border-radius: 20px;
+    box-shadow: 0 8px 10px #437B17;
+    margin: 5px auto;
+    height: 90px;
+    width: 600px;
+}
+#pregunta{
+    text-align: center;
+    color: #FDCD00;
+}
+.respuesta{
+    display: block;
+    border-radius: 20px;
+    border: 2px solid #FDCD00;
+    margin: 12px auto;
+    background-color: #004AAD;
+    padding:100px auto ;
+    width: 40%;
+    text-decoration: none;
+}
+.respuesta h4{
+    color: #FDCD00;
+}
+
+
+
+
+
+
+
+h1 {
+    margin-bottom: 20px;
+    font-family: "Indie Flower", cursive;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 15% 15% auto;
+}
+
+

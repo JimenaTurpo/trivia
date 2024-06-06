@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Trivia de Los Simpson</title>
+    <link rel="stylesheet" href="../asset/css/style.css">
+</head>
+<body>
+    <div id="login-container" class="container">
+        <h1>Iniciar Sesión</h1>
+        <input type="text" id="username" placeholder="Nombre de usuario">
+        <button onclick="login()">Iniciar Sesión</button>
+    </div>
+
+    <div id="trivia-container" class="container" style="display:none;">
+        <h1>Trivia de Los Simpson</h1>
+        <div id="questions-container"></div>
+        <button onclick="submitTrivia()">Enviar</button>
+    </div>
+
+    <div id="result-container" class="container" style="display:none;">
+        <h1>Resultados</h1>
+        <p id="result"></p>
+    </div>
+
+    <script src="../asset/js/script.js"></script>
+</body>
+</html>
